@@ -41,4 +41,14 @@ public class SimpleCalculatorTest {
 
         assertThat(rs).isEqualTo(5);
     }
+
+
+    @Test
+    @DisplayName("10 * 5 = 50")
+    public void t5() {
+        SimpleCalculator simpleCalculator = new SimpleCalculator();
+        int rs = simpleCalculator.multiply(10, 5);
+
+        assertThat(rs).isEqualTo(50);
+    }
 }
