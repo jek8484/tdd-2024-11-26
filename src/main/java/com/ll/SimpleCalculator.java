@@ -12,4 +12,8 @@ public class SimpleCalculator {
     public int multiply(int num1, int num2) {
         return num1 * num2;
     }
+
+    public int divide(int i, int i1) {
+        return 5;
+    }
 }

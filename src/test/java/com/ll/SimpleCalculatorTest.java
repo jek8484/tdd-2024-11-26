@@ -42,7 +42,6 @@ public class SimpleCalculatorTest {
         assertThat(rs).isEqualTo(5);
     }
 
-
     @Test
     @DisplayName("10 * 5 = 50")
     public void t5() {
@@ -50,5 +49,14 @@ public class SimpleCalculatorTest {
         int rs = simpleCalculator.multiply(10, 5);
 
         assertThat(rs).isEqualTo(50);
+    }
+
+    @Test
+    @DisplayName("10 / 2 = 5")
+    public void t6() {
+        SimpleCalculator simpleCalculator = new SimpleCalculator();
+        int rs = simpleCalculator.divide(10, 2);
+
+        assertThat(rs).isEqualTo(5);
     }
 }
