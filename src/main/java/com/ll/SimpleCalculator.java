@@ -13,7 +13,7 @@ public class SimpleCalculator {
         return num1 * num2;
     }
 
-    public int divide(int i, int i1) {
-        return 5;
+    public int divide(int num1, int num2) {
+        return num1 / num2;
     }
 }
